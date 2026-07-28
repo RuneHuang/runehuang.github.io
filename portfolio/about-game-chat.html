@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0X3C6V90GW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0X3C6V90GW');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5DHNLMFF');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print"
+        onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+    </noscript>
+    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+            <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="index.html">Chris's
+                    Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-2">
+                        <li class="nav-item page-active" style="margin-right: 2rem;"><a class="nav-link"
+                                href="index.html">作品集</a></li>
+                        <li class="nav-item page-default"><a class="nav-link" href="about.html">關於我</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section px-lg-2 pt-5" id="portfolio-detail">
+        <div class="container">
+
+            <div class="title-box mb-5">
+                <div class="dateinfo">2025.10 ~ 2026.03</div>
+                <div class="title">遊戲群聊系統</div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+
+                    <div class="detail-text-block mb-4">
+                        <h3 class="h4 mb-3">專案初期：跨站點彈性架構與 Design Tokens 建立</h3>
+                        <p>這為了滿足業主在不同平台（各站點）手機版遊戲頁嵌入群聊的需求，設計初期規劃了 4 套不同視覺風格與主題（Theme） 供客戶選型。同時導入 Design Tokens 管理機制（包含 Default Blue、Gold Style、Tech Blue Night 等），簡化視覺變數，讓團隊能快速調整組件樣式，大幅提升後續擴充、維護與跨站點客製化的效率。
+                        </p>
+                    </div>
+                    <div class="detail-img-block mb-5">
+                        <img src="images/gc-p1.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                    </div>
+
+
+                    <div class="detail-text-block mb-4">
+                        <h3 class="h4 mb-3">組件庫搭建：完整涵蓋動態互動與各種狀態</h3>
+                        <p>確定視覺風格後，進一步建構高度模組化的 UI Component System，重點包含
+                            <ul>
+                                <li>基礎元件與外觀客製：使用者頭像框（User Frame）、通用對話框、動態 Tooltip 與系統 Toast</li>
+                                <li>核心營運與玩法組件：支援我方與對方的「紅包、福袋、小遊戲」等高互動性訊息卡片與快捷發送介面</li>
+                                <li>狀態與情境管理：細緻規劃輸入列的多種狀態（Input Panel Status，如禁用、輸入中、解鎖等）、置頂公告與訊息推播通知，確保整體互動體驗的連貫與完整性</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="detail-img-block mb-5">
+                        <img src="images/gc-p2.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                    </div>
+
+                    <div class="detail-text-block mb-4">
+                        <h3 class="h4 mb-3">專案主導與跨角色架構設計</h3>
+                        <p>進入核心設計階段後，我擔任專案主要架構師，負責整體框架建構與流程梳理，同仁則專注於營運組件（紅包、福袋、小遊戲）與個人頁面。我所主導的模組包括：
+                            <ul>
+                                <li>系統主架構與導覽：訊息首頁、聊天大廳列表、聊天室設定與通知設置</li>
+                                <li>權限與角色架構：針對「普通用戶」與「群管/系統」設計差異化的介面權限與控制功能</li>
+                                <li>導流與互動機制：遊戲引流連結發送、快捷聊天泡泡、貼圖貼紙（Sticker/Emoji）與訊息重發（Resend）機制</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="detail-img-block mb-5">
+                        <img src="images/gc-p3.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                    </div>
+
+                    <div class="detail-text-block mb-4">
+                        <h3 class="h4 mb-3">流程設計與跨部門協作</h3>
+                        <p>為確保團隊內部溝通順暢並降低開發溝通成本，針對邏輯較為複雜的情境（如「發送遊戲引流連結」流程），我繪製了嚴謹的 UI Task Flow 與邏輯判斷圖：
+                            <ul>
+                                <li>完整情境與條件分支：清楚定義「是否有可推薦遊戲」、「有無遊戲房間/房型設定」等邏輯分支與對應的空狀態（Empty State）畫面</li>
+                                <li>細節規範與互動熱區：標註按鈕觸發範圍（如整張訊息卡片皆為點擊熱區）、按鈕狀態切換與防止誤觸設計，提升開發落地的精準度</li>
+                                <li>資產與交付文件整備：同步建立切圖檔案庫目錄（Assets Map），明訂圖檔命名原則、尺寸（@1x~@3x, SVG）與圖層屬性，確保設計能無縫對接工程實作</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="detail-img-block mb-5">
+                        <img src="images/gc-p4.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                        <img src="images/gc-p5.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                    </div>
+
+                    <div class="detail-text-block mb-4">
+                        <h3 class="h4 mb-3">結語</h3>
+                        <p>專案目前已順利上線。我們深入分析了國內外多款競品，並與團隊及發案方進行多次跨領域討論與反饋校正。
+                        </p>
+                        <p>有別於傳統博弈產品常見的高飽和、繁複強烈視覺，最終我們突破既定印象，定案以簡潔清爽、現代化（Clean & Minimalist）的配色風格呈現。這樣的設計既維持了社交介面的易讀性與舒適度，又能讓紅包、福袋等高亮度的營運組件更加跳脫突出。這次跨領域的經驗不僅拓展了我的設計邊界，也成功為產品打造出兼具質感與商業價值的全新體驗。</p>
+                    </div>
+                    <div class="detail-img-block mb-5">
+                        <img src="images/gc-p6.png" class="img-fluid img-thumbnail" alt="介面功能展示">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i
+                    class="fas fa-angle-up fa-x"></i></span></a></div>
+    <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+    <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+    <script src="./scripts/main.js?ver=1.2.0"></script>
+
+</body>
+
+</html>

@@ -282,3 +282,36 @@ footer a:not(.nav-link) {
     margin-top: 1em;
   }
 }
+
+.bg-light{
+    background-color: #f9f9f9 !important;
+    border-bottom: 0.25px solid #eee;
+}
+
+.page-default a{
+  color: #999 !important;
+  font-weight: 200;
+}
+
+.page-active a{
+  color: #222 !important;
+}
+
+.case{
+  padding-top: 5em;
+}
+
+.dateinfo{
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 0.2em;
+}
+
+.title-box .title{
+  font-size: 1.5em;
+}
+
+.case-cover a img{
+  width: 100%;
+  height: auto;
+}
