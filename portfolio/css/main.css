@@ -321,3 +321,7 @@ footer a:not(.nav-link) {
   color: #666;
   margin-bottom: 0.2em;
 }
+
+.title-box .title{
+  color: #0f5075;
+}
