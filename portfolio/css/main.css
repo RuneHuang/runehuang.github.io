@@ -319,9 +319,14 @@ footer a:not(.nav-link) {
 .dateinfo{
   font-size: 0.8em;
   color: #666;
-  margin-bottom: 0.2em;
+  margin-bottom: 0;
 }
 
 .title-box .title{
+  line-height: 1.2 !important;
+}
+
+.title-box .title a{
   color: #0f5075;
+  text-decoration: none;
 }
